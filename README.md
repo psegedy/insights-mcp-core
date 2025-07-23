@@ -1,0 +1,1 @@
+# insights-mcp-core

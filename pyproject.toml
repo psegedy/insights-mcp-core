@@ -1,0 +1,20 @@
+[project]
+name = "insights-mcp-core"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Patrik Segedy", email = "psegedy@redhat.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "authlib>=1.6.1",
+    "fastmcp>=2.10.6",
+]
+
+[project.scripts]
+insights-mcp-core = "insights_mcp_core:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
